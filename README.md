@@ -1,6 +1,6 @@
 ## I will update this project in the future.
 
-Now, you have to copy the IDs manually. In the next version, i will fix this.
+Now, we have to copy the IDs manually. In the next version, i will fix.
 
 ** The tests are not working. ** I will fix this in the next version.
 
