@@ -38,8 +38,9 @@ module sui_vulnerable_vault::sui_vulnerable_vault{
 
     public entry fun withdraw(vault: &mut Vault, amount: u64, ctx: &mut TxContext){
 
-        //
+        //---------------------------------------------------
         assert!(tx_context::sender(ctx) == vault.owner, 403);
+        //---------------------------------------------------
 
         //decrease vault balance without access control
         let coin = coin::split(&mut vault.balance, amount, ctx);
