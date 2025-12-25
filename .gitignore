@@ -1,0 +1,20 @@
+build/*
+traces/*
+.trace
+.coverage*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Move
+Move.lock
